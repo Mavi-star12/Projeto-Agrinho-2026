@@ -1,4 +1,3 @@
-Markdown
 # 🌱 Projeto Agrinho 2026 - Tratores e Crédito Rural
 
 ## 🎯 Objetivo do Projeto
