@@ -5,13 +5,21 @@ Objetivo do Projeto
 Esse projeto foi desenvolvido para o Programa Agrinho 2026, focado no tema “Agro forte, futuro sustentável: equilíbrio entre produção e meio ambiente”. A iniciativa visa a criação de um site interativo que demonstra como a tecnologia atua como uma ponte entre o campo e a cidade, destacando a inovação, o desenvolvimento sustentável e as novas oportunidades geradas para as famílias do campo.
 
 🖥️ Tecnologias utilizadas
+
 HTML
+
 CSS
+
 JavaScript
+
 Responsividade com Media Queries
+
 Pseudo-classes CSS (hover, active)
+
 Animações CSS
+
 GitHub Pages para hospedagem
+
 
 📸 Créditos das Imagens
 A imagem utilizada foi obtida com o ganhador do Concurso Agrinho do ano passado, Vinicius Gabriel Sarraff, com os devidos direitos de uso gratuito e créditos.
