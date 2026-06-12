@@ -25,8 +25,7 @@
             <h1>A tecnologia que movimenta dois Mundos</h1>
             <p>O impacto dos tratores no nosso cotidiano e de que maneira o Crédito Rural transforma a vida dos agricultores.</p>
             <a href="#credito" class="btn-main">Saber Mais sobre o Agro</a>
-        </div> 
-    </section>
+        </div> </section>
 
     <section id="versatilidade" class="section-container">
         <div class="section-title">
@@ -75,49 +74,66 @@
     </section>
 
     <section id="simulador" class="section-container simulation-box">
+
         <div class="section-title">
+
             <h2>Simulador de Investimento do Agro</h2>
+
             <p>Selecione o porte do trator e veja seu potencial na produção.</p>
+
         </div>
 
-        <div class="simulator-controls">
-            <details class="result-card" name="tratores">
-                <summary class="btn-sim">Trator Pequeno (Focado na agricultura Familiar)</summary>
-                <div class="conteudo-simulacao">
-                    <h3><i class="fa-solid fa-seedling"></i> Impacto: Agricultura Familiar</h3>
-                    <p><strong>Destino do Crédito:</strong> Financiamento de tratores compactos, econômicos e de fácil manuseio.</p>
-                    <p><strong>Transformação:</strong> Automatiza tarefas cansativas diárias, melhora a qualidade de vida da família no campo e aumenta o rendimento das culturas locais.</p>
-                </div>
-            </details>
+<div class="simulator-controls">
 
-            <details class="result-card" name="tratores">
-                <summary class="btn-sim">Trator Médio (Foco na expansão agrícola)</summary>
-                <div class="conteudo-simulacao">
-                    <h3><i class="fa-solid fa-tractor"></i> Impacto: Expansão Agrícola</h3>
-                    <p><strong>Destino do Crédito:</strong> Aquisição de maquinários de média potência com implementos modernos de semeadura.</p>
-                    <p><strong>Transformação:</strong> Duplica a velocidade de plantio da fazenda, permitindo que o produtor atenda demandas de mercados regionais e amplie as suas terras.</p>
-                </div>
-            </details>
+    <details class="result-card" name="tratores">
+        <summary class="btn-sim">Trator Pequeno (Focado na agricultura Familiar)</summary>
+        <div class="conteudo-simulacao">
+            <h3><i class="fa-solid fa-seedling"></i> Impacto: Agricultura Familiar</h3>
+            <p><strong>Destino do Crédito:</strong> Financiamento de tratores compactos, econômicos e de fácil manuseio.</p>
+            <p><strong>Transformação:</strong> Automatiza tarefas cansativas diárias, melhora a qualidade de vida da família no campo e aumenta o rendimento das culturas locais.</p>
+        </div>
+    </details>
 
-            <details class="result-card" name="tratores">
-                <summary class="btn-sim">Trator de Grande Porte (Impulsiona a Grande Escala)</summary>
-                <div class="conteudo-simulacao">
-                    <h3><i class="fa-solid fa-wheat-awn"></i> Impacto: Produção em Larga Escala</h3>
-                    <p><strong>Destino do Crédito:</strong> Investimento em supertratores integrados com GPS, inteligência artificial e telemetria avançada.</p>
-                    <p><strong>Transformação:</strong> Permite o mapeamento do solo por satélite e o cultivo de grandes hectares com desperdício mínimo, maximizando a produtividade para exportação.</p>
-                </div>
-            </details>
-        </div> 
-    </section>
+    <details class="result-card" name="tratores">
+        <summary class="btn-sim">Trator Médio (Foco na expansão agrícola)</summary>
+        <div class="conteudo-simulacao">
+            <h3><i class="fa-solid fa-tractor"></i> Impacto: Expansão Agrícola</h3>
+            <p><strong>Destino do Crédito:</strong> Aquisição de maquinários de média potência com implementos modernos de semeadura.</p>
+            <p><strong>Transformação:</strong> Duplica a velocidade de plantio da fazenda, permitindo que o produtor atenda demandas de mercados regionais e amplie as suas terras.</p>
+        </div>
+    </details>
 
-    <button id="btnVoltarTopo" class="btn-sim">
-        ↑ Voltar ao Início
-    </button>
+    <details class="result-card" name="tratores">
+        <summary class="btn-sim">Trator de Grande Porte (Impulsiona a Grande Escala)</summary>
+        <div class="conteudo-simulacao">
+            <h3><i class="fa-solid fa-wheat-awn"></i> Impacto: Produção em Larga Escala</h3>
+            <p><strong>Destino do Crédito:</strong> Investimento em supertratores integrados com GPS, inteligência artificial e telemetria avançada.</p>
+            <p><strong>Transformação:</strong> Permite o mapeamento do solo por satélite e o cultivo de grandes hectares com desperdício mínimo, maximizando a produtividade para exportação.</p>
+        </div>
+    </details>
 
-    <footer>
-        <p>&copy; Desenvolvido por Maria Vitória Moreira da Luz • Agrinho 2026 - Tecnologia, Campo e Cidade.</p>
-    </footer>
+</div> </section> <button id="btnVoltarTopo" class="btn-sim">
+    ↑ Voltar ao Início
+</button>
 
-    <script src="script.js"></script>
+<footer>
+    <p>&copy; Desenvolvido por Maria Vitória Moreira da Luz • Agrinho 2026 - Tecnologia, Campo e Cidade.</p>
+</footer>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        const botao = document.getElementById("btnVoltarTopo");
+
+        if (botao) {
+            botao.addEventListener("click", function() {
+                window.scrollTo({
+                    top: 0,
+                    behavior: 'smooth' 
+                });
+            });
+        }
+    });
+</script>
+
 </body>
 </html>
