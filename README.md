@@ -20,9 +20,6 @@ A imagem utilizada foi obtida com o ganhador do Concurso Agrinho do ano passado,
 O texto sobre 'Tratores e Crédito Rural', incluindo os tópicos sobre tecnologia no campo, uso de IA e empreendedorismo rural, foi produzido por mim, Maria Vitória Moreira Da Luz, com base em meus próprios conhecimentos e pesquisas. A produção textual deste site contou com o suporte de inteligência artificial, sendo posteriormente revisada e adaptada por mim para garantir o perfeito alinhamento ao tema do concurso.
 
 
-🏷️ Tags
-agrinho 
-
 💬 Observações
 O projeto inclui recursos de acessibilidade, como botão de aumento de fonte.
 Também conta com carrossel de imagens com textos descritivos, para melhor experiência do usuário.
