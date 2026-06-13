@@ -33,7 +33,6 @@ O texto sobre **'Tratores e Crédito Rural'** (incluindo os tópicos sobre tecno
 A imagem utilizada no projeto foi obtida com o ganhador do Concurso Agrinho do ano passado, **Vinicius Gabriel Sarraff**, com os devidos direitos de uso gratuito e créditos atribuídos.
 
 ---
-(https://mavi-star12.github.io/Projeto-Agrinho-2026/)
 
 ## 💬 Diferenciais & Observações
 O projeto inclui recursos de acessibilidade, como um botão para aumento de fonte.
